@@ -32,10 +32,14 @@ const lookup = {
 };
 
 function rot13(encodedStr) {
-  let decodedArr = []; // Your Result goes here
+  let decodedArr = []; 
+	// Your Result goes here
   // Only change code below this line
+	for (e of encodedStr){
+		decodedArr.push(lookup.e);
+	}
 
-  return; //return decodedArr
+  return "".join(decodedArr); //return decodedArr
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
